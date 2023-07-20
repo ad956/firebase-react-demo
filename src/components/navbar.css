@@ -1,0 +1,21 @@
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    border-radius: 50%;
+}
+
+button , .btn{
+    border-radius: 10px ;
+}
+
+.nav-link{
+    transition: color 10ms;
+}
+
+.nav-link:hover{
+    color: #7700ff;
+}
