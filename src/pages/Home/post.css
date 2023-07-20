@@ -1,0 +1,24 @@
+.btns {
+    background-position: center;
+    transition: background 0.8s;
+  }
+  .btns:hover {
+    background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+  }
+  .btns:active {
+    background-color: transparent;
+    background-size: 100%;
+    transition: background 0s;
+  }
+  
+  button {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: transparent;
+    box-shadow: 0 0 4px #999;
+    outline: none;
+  }
+  
